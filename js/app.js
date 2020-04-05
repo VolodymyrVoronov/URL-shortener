@@ -39,7 +39,7 @@ updateUI = (data) => {
   try {
     const html = (`
     <a class="app__link app__link--origin-link" href="${data.result.original_link}" target="_blank"><b>Origin link:</b> ${data.result.original_link}</a>
-    <a class="app__link app__link--shortened-link" href="${data.result.full_short_link2}" target="_blank"><b>Sortened link:</b> ${data.result.full_short_link2}</a>
+    <a class="app__link app__link--shortened-link" href="${data.result.full_short_link2}" target="_blank"><b>Shortened link:</b> ${data.result.full_short_link2}</a>
     `);
     appOutput.innerHTML = html;
   } catch (error) {
